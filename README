@@ -1,0 +1,1 @@
+Based awscli container based on Alpine.  Uses an entrypoint of /usr/bin/aws.
