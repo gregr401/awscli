@@ -1,6 +1,6 @@
 FROM alpine:3.6
 
-ENTRYPOINT "/usr/bin/aws"
+ENTRYPOINT ["/usr/bin/aws"]
 
 RUN apk update && apk add \ 
       bash \
